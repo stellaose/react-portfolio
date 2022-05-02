@@ -1,0 +1,76 @@
+.container .text-zone {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  max-height: 90%;
+}
+.container h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 6.5rem;
+  font-family: "Coolvetica";
+  font-weight: 400;
+  line-height: 6.5rem;
+}
+.container h1::before {
+  content: "<h1>";
+  font-family: "La Belle Aurore", cursive;
+  color: #BCCC1C;
+  font-size: 2rem;
+  position: absolute;
+  margin-top: -4rem;
+  left: -0.9rem;
+  opacity: 0.6;
+}
+.container h1::after {
+  content: "<h1>";
+  font-family: "La Belle Aurore", cursive;
+  color: #BCCC1C;
+  font-size: 2rem;
+  position: absolute;
+  margin-top: 1.4rem;
+  margin-left: 1.25rem;
+  animation: fadeIn 1s 1.7s backwards;
+  opacity: 0.6;
+}
+.container h1 img {
+  width: 4rem;
+  height: auto;
+  margin-left: 1.25rem;
+  opacity: 0;
+  animation: rotateIn 1s linear both;
+  animation-delay: 1.4s;
+}
+.container h2 {
+  color: #8d8d8d;
+  margin-top: 1.25rem;
+  font-weight: 600;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  animation: fadeIn 1s 1.8s backwards;
+}
+.container .flat {
+  padding: 1rem 2rem;
+  border: 1px solid #BCCC1C;
+  background: none;
+  margin-top: 1.8rem;
+}
+.container .flat a {
+  color: #BCCC1C;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  float: left;
+  animation: fadeInAnimation 1s 1.8s backwards;
+}
+.container .flat a:hover {
+  color: #2a2b2b;
+}
+.container .flat:hover {
+  background-color: #BCCC1C;
+  color: #2a2b2b;
+}

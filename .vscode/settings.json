@@ -1,0 +1,13 @@
+{
+    "cSpell.words": [
+        "activeclassname"
+    ],
+
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#FF7D7D",
+        "activityBar.foreground": "#2A2B2B",
+        "titleBar.activeBackground": "#FF7D7D",
+        "titleBar.activeForeground": "#2A2B2B"
+    },
+    "compile-hero.disable-compile-files-on-did-save-code": false
+}

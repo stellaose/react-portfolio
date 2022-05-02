@@ -1,0 +1,123 @@
+.navbar-body {
+  background: #242424;
+  width: 8rem;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  min-height: 31.25rem;
+}
+
+.navbar-body .logo {
+  display: block;
+  padding: 0.5rem;
+}
+
+.navbar-body .logo a img {
+  height: 4.5rem;
+  width: auto;
+  display: block;
+  margin: 1.5rem auto 0;
+}
+
+.navbar-body .logo a img.sub-img {
+  height: 2.5rem;
+  margin: 0 auto;
+}
+
+.navbar-body nav {
+  display: block;
+  text-align: center;
+  position: absolute;
+  height: 13rem;
+  top: 45%;
+  margin-top: -6.5rem;
+  width: 100%;
+}
+
+.navbar-body nav a {
+  font-size: 2rem;
+  color: #BCCC1C;
+  display: block;
+  line-height: 51px;
+  height: 51px;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar-body nav a i {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.navbar-body nav a:hover {
+  color: #BCCC1C;
+}
+
+.navbar-body nav a:hover svg {
+  opacity: 0;
+}
+
+.navbar-body nav a:hover:after {
+  opacity: 1;
+}
+
+.navbar-body nav a:after {
+  content: '';
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.navbar-body nav a:first-child:after {
+  content: 'HOME';
+}
+
+.navbar-body nav a.about:after {
+  content: 'ABOUT';
+}
+
+.navbar-body nav a.skills:after {
+  content: 'SKILLS';
+}
+
+.navbar-body nav a.work:after {
+  content: 'MY WORK';
+}
+
+.navbar-body nav a.contact:after {
+  content: 'CONTACT';
+}
+
+.navbar-body nav a.active svg {
+  color: #BCCC1C;
+}
+
+.navbar-body ul {
+  position: absolute;
+  bottom: 3rem;
+  width: 100%;
+  display: block;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar-body ul li a {
+  padding: 0.4rem 0;
+  display: block;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.navbar-body ul li a:hover svg {
+  color: #BCCC1C;
+}
+/*# sourceMappingURL=SideBar.css.map */

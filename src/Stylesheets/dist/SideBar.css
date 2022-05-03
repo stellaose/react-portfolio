@@ -6,24 +6,20 @@
   z-index: 2;
   min-height: 31.25rem;
 }
-
 .navbar-body .logo {
   display: block;
   padding: 0.5rem;
 }
-
 .navbar-body .logo a img {
   height: 4.7rem;
   width: auto;
   display: block;
   margin: 1.5rem auto 0;
 }
-
 .navbar-body .logo a img.sub-img {
   height: 2.7rem;
   margin: 0 auto;
 }
-
 .navbar-body nav {
   display: block;
   text-align: center;
@@ -33,7 +29,6 @@
   margin-top: -6.5rem;
   width: 100%;
 }
-
 .navbar-body nav a {
   font-size: 2.3rem;
   color: #BCCC1C;
@@ -43,26 +38,20 @@
   position: relative;
   text-decoration: none;
 }
-
 .navbar-body nav a i {
-  -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-
 .navbar-body nav a:hover {
   color: #BCCC1C;
 }
-
 .navbar-body nav a:hover svg {
   opacity: 0;
 }
-
 .navbar-body nav a:hover:after {
   opacity: 1;
 }
-
 .navbar-body nav a:after {
-  content: '';
+  content: "";
   font-size: 1.4rem;
   letter-spacing: 2px;
   position: absolute;
@@ -74,31 +63,24 @@
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-
 .navbar-body nav a:first-child:after {
-  content: 'HOME';
+  content: "HOME";
 }
-
 .navbar-body nav a.about:after {
-  content: 'ABOUT';
+  content: "ABOUT";
 }
-
 .navbar-body nav a.skills:after {
-  content: 'SKILLS';
+  content: "SKILLS";
 }
-
 .navbar-body nav a.work:after {
-  content: 'MY WORK';
+  content: "MY WORK";
 }
-
 .navbar-body nav a.contact:after {
-  content: 'CONTACT';
+  content: "CONTACT";
 }
-
 .navbar-body nav a.active svg {
   color: #BCCC1C;
 }
-
 .navbar-body ul {
   position: absolute;
   bottom: 3rem;
@@ -109,15 +91,12 @@
   text-align: center;
   margin: 0;
 }
-
 .navbar-body ul li a {
   padding: 0.4rem 0;
   display: block;
   font-size: 1.5rem;
   line-height: 3rem;
 }
-
 .navbar-body ul li a:hover svg {
   color: #BCCC1C;
 }
-/*# sourceMappingURL=SideBar.css.map */

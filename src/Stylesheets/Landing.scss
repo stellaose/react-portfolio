@@ -1,20 +1,23 @@
 .container{
+    width: 100%;
+
     .text-zone{
         position: absolute;
+        float: left;
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 60%;
         max-height: 90%;
     }
 
     h1{
         margin: 0;
         color: #fff;
-        font-size: 6.5rem;
+        font-size: 9rem;
         font-family: 'Coolvetica';
         font-weight: 400;
-        line-height: 6.5rem;
+        line-height: 8rem;
 
         &::before{
             content: '<h1>';
@@ -39,8 +42,8 @@
             opacity: 0.6;
         }
 
-        img{
-            width: 4rem;
+        .logo-img{
+            width: 6rem;
             height: auto;
             margin-left: 1.25rem;
             opacity: 0;
@@ -53,31 +56,25 @@
         color: #8d8d8d;
         margin-top: 1.25rem;
         font-weight: 600;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         font-family: sans-serif;
         letter-spacing: 3px;
         animation: fadeIn 1s 1.8s backwards;
     }
 
     .flat{
-        padding: 1rem 2rem;
+        padding: 1.5rem 2.5rem;
         border: 1px solid #BCCC1C;
         background: none;
         margin-top: 1.8rem;
-
-        a{
-            color: #BCCC1C;
-            text-decoration: none;
-            letter-spacing: 3px;
-            font-size: 1.4rem;
-            font-family: sans-serif;
-            float: left;
-            animation: fadeInAnimation 1s 1.8s backwards;
-
-            &:hover {
-                color: #2a2b2b;
-            }
-        }
+        color: #BCCC1C;
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+        float: left;
+        animation: fadeInAnimation 1s 1.8s backwards;
+        white-space: nowrap;
 
         &:hover {
             background-color: #BCCC1C;

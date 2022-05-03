@@ -44,8 +44,8 @@
   .container.work {
     .text-zone {
       position: absolute;
-      left: 10%;
-      top: 50%;
+      left: 12%;
+      top: 40%;
       transform: translateY(-50%);
       width: 35%;
       vertical-align: middle;
@@ -53,7 +53,7 @@
       max-height: 90%;
   
       h1 {
-        font-size: 3.5rem;
+        font-size: 6.5rem;
         font-family: 'Coolvetica';
         color: #BCCC1C;
         font-weight: 400;
@@ -62,7 +62,7 @@
         margin-bottom: 2.5rem;
         left: -0.7rem;
   
-        &:before {
+        &::before {
           content: '<h1>';
           font-family: 'La Belle Aurore', cursive;
           color: #BCCC1C;
@@ -74,7 +74,7 @@
           line-height: 1.3rem;
         }
   
-        &:after {
+        &::after {
           content: '<h1/>';
           font-family: 'La Belle Aurore', cursive;
           color: #BCCC1C;
@@ -89,8 +89,9 @@
     }
   
       p {
-        font-size: 0.8rem;
+        font-size: 1.7rem;
         color: #fff;
+        line-height: 2.5rem;
         font-family: sans-serif;
         font-weight: 300;
         max-width: fit-content;

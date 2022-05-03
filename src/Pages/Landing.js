@@ -3,7 +3,8 @@ import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 import Animated from '../Components/Animated';
-import Logo from '../assets/Images/Stella.png';
+import Loader from 'react-loaders'
+import LogoSub from '../assets/Images/Stella.png';
 import '../Stylesheets/Landing.scss'
 
 const Landing = () => {
@@ -21,25 +22,25 @@ const Landing = () => {
     <>
       <div  className = 'container landing-page'>
         <div className = 'text-zone'>
-          <h1>
+          <h1 className = 'logo-text'>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br /> 
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img src={Logo} alt=" Stella" />
+            <img src={LogoSub} alt=" Stella" className='logo-img'/>
             <Animated letterClass ={ letterClass} strArray = {nameArray} index = {15}/>
             <br/>
             <Animated letterClass ={ letterClass} strArray = {jobArray} index = {22}/>
           </h1>
           <h2>Software Developer</h2>
-          <button className = 'flat'>
-            <Link to = '/contact' >
-              CONTACT ME
-            </Link>
-          </button>
+          <Link to = '/contact' className = 'flat'>
+            CONTACT ME
+          </Link>
         </div>
+        
       </div>
+      <Loader type="pacman" />
     </>
   )
 }

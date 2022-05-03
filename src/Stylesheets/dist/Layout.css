@@ -43,8 +43,8 @@
 .container.skills .text-zone,
 .container.work .text-zone {
   position: absolute;
-  left: 10%;
-  top: 50%;
+  left: 12%;
+  top: 40%;
   transform: translateY(-50%);
   width: 35%;
   vertical-align: middle;
@@ -55,7 +55,7 @@
 .container.about .text-zone h1,
 .container.skills .text-zone h1,
 .container.work .text-zone h1 {
-  font-size: 3.5rem;
+  font-size: 6.5rem;
   font-family: "Coolvetica";
   color: #BCCC1C;
   font-weight: 400;
@@ -64,10 +64,10 @@
   margin-bottom: 2.5rem;
   left: -0.7rem;
 }
-.container.contact .text-zone h1:before,
-.container.about .text-zone h1:before,
-.container.skills .text-zone h1:before,
-.container.work .text-zone h1:before {
+.container.contact .text-zone h1::before,
+.container.about .text-zone h1::before,
+.container.skills .text-zone h1::before,
+.container.work .text-zone h1::before {
   content: "<h1>";
   font-family: "La Belle Aurore", cursive;
   color: #BCCC1C;
@@ -78,10 +78,10 @@
   opacity: 0.6;
   line-height: 1.3rem;
 }
-.container.contact .text-zone h1:after,
-.container.about .text-zone h1:after,
-.container.skills .text-zone h1:after,
-.container.work .text-zone h1:after {
+.container.contact .text-zone h1::after,
+.container.about .text-zone h1::after,
+.container.skills .text-zone h1::after,
+.container.work .text-zone h1::after {
   content: "<h1/>";
   font-family: "La Belle Aurore", cursive;
   color: #BCCC1C;
@@ -97,8 +97,9 @@
 .container.about .text-zone p,
 .container.skills .text-zone p,
 .container.work .text-zone p {
-  font-size: 0.8rem;
+  font-size: 1.7rem;
   color: #fff;
+  line-height: 2.5rem;
   font-family: sans-serif;
   font-weight: 300;
   max-width: fit-content;

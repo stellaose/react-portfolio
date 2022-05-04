@@ -2,7 +2,8 @@ import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
 import Animated from '../Components/Animated';
-import Loader from 'react-loaders'
+import Loader from 'react-loaders';
+import Logo from '../Components/Logo';
 import LogoSub from '../assets/Images/Stella.png';
 import '../Stylesheets/Landing.scss'
 
@@ -32,14 +33,14 @@ const Landing = () => {
             <br/>
             <Animated letterClass ={ letterClass} strArray = {jobArray} index = {22}/>
           </h1>
-          <h2>Software Developer</h2>
+          <h2>FullStack Developer</h2>
           <Link to = '/contact' className = 'flat'>
             CONTACT ME
           </Link>
         </div>
-        
+        <Logo />
       </div>
-      <Loader type="pacman" />
+      <Loader type="pacman"  />
     </>
   )
 }

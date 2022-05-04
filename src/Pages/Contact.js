@@ -96,10 +96,15 @@ const Contact = () => {
         </div>
 
         <div className="map-wrap">
-          <MapContainer center={[6.53406, 3.39286]} zoom={30}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[6.53406, 3.39286]}>
-              <Popup>Stella lives here</Popup>
+          <MapContainer center={[6.53406, 3.39286]} zoom={13}>
+            <TileLayer
+              attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            />
+            <Marker  position={[6.53406, 3.39286]}>
+              <Popup>
+                  Stella lives here
+              </Popup>
             </Marker>
           </MapContainer>
         </div>

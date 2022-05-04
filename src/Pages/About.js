@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React, {useState, useEffect} from 'react'
 import Animated from '../Components/Animated';
+import Loader from 'react-loaders';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact} from '@fortawesome/free-brands-svg-icons';
+import { faReact, faHtml5, faCss3, faNodeJs, faSass, faJs } from '@fortawesome/free-brands-svg-icons';
 import '../Stylesheets/About.scss';
 
 const About = () => {
@@ -37,11 +38,32 @@ const About = () => {
           <div className = 'stage-cube-cont'>
             <div className = 'cubespinner'>
               <div className='face1'>
-                <FontAwesomeIcon icon = { faReact} />
+                <FontAwesomeIcon icon = { faReact} color="#5ED4F4" />
+              </div>
+
+              <div className='face2'>
+                <FontAwesomeIcon icon = { faHtml5} color="#F06529" />
+              </div>
+
+              <div className='face3'>
+                <FontAwesomeIcon icon = { faCss3} color="#28A4D9" />
+              </div>
+
+              <div className='face4'>
+                <FontAwesomeIcon icon = { faNodeJs} color = '#578f0d' />
+              </div>
+
+              <div className='face5'>
+                <FontAwesomeIcon icon = { faSass} color = '#FF7D7D' />
+              </div>
+
+              <div className='face6'>
+                <FontAwesomeIcon icon = { faJs} color="#EFD81D" />
               </div>
             </div>
           </div>
       </div>
+      <Loader type="pacman" />
     </>
   )
 }

@@ -1,0 +1,26 @@
+.logo-content {
+  z-index: 0;
+  width: 28%;
+  height: auto;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  left: auto;
+  bottom: 0;
+  margin: auto;
+}
+
+.logo-content .solid-logo {
+  position: absolute;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  -webkit-transform: rotateZ(30deg) !important;
+          transform: rotateZ(30deg) !important;
+  z-index: 1;
+}
+/*# sourceMappingURL=Logo.css.map */

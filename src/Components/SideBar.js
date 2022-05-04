@@ -23,19 +23,19 @@ const SideBar = () => {
                   <FontAwesomeIcon icon = {faHouse} color = '#4F5254'/>
                 </NavLink>
 
-                <NavLink exact = 'true' activeclassname = 'active' className = 'about' to = '/about'>
+                <NavLink exact = 'true' activeclassname = 'active' className = 'about' to = 'about'>
                   <FontAwesomeIcon icon = {faUser} color = '#4F5254'/>
                 </NavLink>
 
-                <NavLink exact = 'true' activeclassname = 'active' className = 'skills' to = '/skills'>
+                <NavLink exact = 'true' activeclassname = 'active' className = 'skills' to = 'skill'>
                   <FontAwesomeIcon icon = {faGear} color = '#4F5254'/>
                 </NavLink>
 
-                <NavLink exact = 'true' activeclassname = 'active' className= 'work' to = '/work'>
+                <NavLink exact = 'true' activeclassname = 'active' className= 'work' to = 'work'>
                   <FontAwesomeIcon icon = {faEye} color = '#4F5254'/>
                 </NavLink>
 
-                <NavLink exact = 'true' activeclassname = 'active' className= 'contact' to = '/contact'>
+                <NavLink exact = 'true' activeclassname = 'active' className= 'contact' to = 'contact'>
                   <FontAwesomeIcon icon = {faEnvelope } color = '#4F5254'/>
                 </NavLink>
               </nav>

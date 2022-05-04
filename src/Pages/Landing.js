@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, {useState, useEffect} from 'react';
 import { Link } from 'react-router-dom';
 
@@ -12,11 +11,11 @@ const Landing = () => {
   const nameArray = [ 't', 'e', 'l', 'l', 'a'];
   const jobArray = [ 'w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.'];
 
- useEffect = (() => {
-   return setTimeout(() => {
-     setLetterClass('text-animate-hover')
-   }, 4000)
- })
+  useEffect(() => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 3000)
+  }, [])
 
   return (
     <>

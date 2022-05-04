@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React, {useState, useEffect} from 'react'
 import Animated from '../Components/Animated';
 import Loader from 'react-loaders';
@@ -9,18 +8,18 @@ import '../Stylesheets/About.scss';
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  useEffect = (() => {
-    return setTimeout(() => {
+  useEffect(() => {
+    setTimeout(() => {
       setLetterClass('text-animate-hover')
-    }, 4000)
-  })
+    }, 3000)
+  }, [])
   return (
     <>
       <div className='container about'>
           <div className='text-zone'>
             <h1 >
               <Animated 
-                  // letterClass= {letterClass} 
+                  letterClass= {letterClass} 
                   strArray={['A', 'b', 'o', 'u', 't', ' ', 'M', 'e']} 
                   index = {15}/>
             </h1> 

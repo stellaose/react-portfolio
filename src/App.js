@@ -12,12 +12,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path = '/' element = {<Layout/>}> 
-          <Route index element = {<Landing/>} />
-          <Route path='/about' element = {<About/>} />
-          <Route path='/contact' element = {<Contact/>} />
-          <Route path='/work' element = {<Work/>} />
-          <Route path='/skills' element = {<Skills/>} />
+        <Route path = '/' element = {<Layout />}> 
+          <Route index element = {<Landing />} />
+          <Route exact path='about' element = {<About />} />
+          <Route exact path='contact' element = {<Contact />} />
+          <Route exact path='work' element = {<Work />} />
+          <Route exact path='skill' element = {<Skills />} />
         </Route>
       </Routes>
     </>

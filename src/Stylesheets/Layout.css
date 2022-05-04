@@ -47,7 +47,7 @@
 .container.work .text-zone {
   position: absolute;
   left: 12%;
-  top: 40%;
+  top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   width: 35%;

@@ -49,37 +49,37 @@
 .cubespinner .face1 {
   -webkit-transform: translateZ(100px);
           transform: translateZ(100px);
-  color: #dd0031;
+  color: #5ED4F4;
 }
 
 .cubespinner .face2 {
   -webkit-transform: rotateY(90deg) translateZ(100px);
           transform: rotateY(90deg) translateZ(100px);
-  color: #f06529;
+  color: #F06529;
 }
 
 .cubespinner .face3 {
   -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
           transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-  color: #28a4d9;
+  color: #28A4D9;
 }
 
 .cubespinner .face4 {
   -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
           transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-  color: #5ed4f4;
+  color: #578F0D;
 }
 
 .cubespinner .face5 {
   -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
           transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-  color: #efd81d;
+  color: #FF7D7D;
 }
 
 .cubespinner .face6 {
   -webkit-transform: rotateX(-90deg) translateZ(100px);
           transform: rotateX(-90deg) translateZ(100px);
-  color: #ec4d28;
+  color: #EFD81D;
 }
 
 @-webkit-keyframes spincube {

@@ -1,3 +1,29 @@
+.success{
+    width: 40rem;
+    height: 15rem;
+    margin: 10% auto 0;
+    padding: 2rem;
+    border: 1px solid #FF7D7D;
+  
+    .sub{
+      text-align: center;
+      font-size: 1.8rem;
+      color: #FF7D7D;
+    }
+  
+    .btn{
+      background: none;
+      color: #BCCC1C;
+      border: 1px solid #BCCC1C;
+      padding: 1rem 2rem;
+  
+      &:hover{
+        color: #2A2B2B;
+        background-color: #BCCC1C;
+      }
+    }
+  }
+
 .contact-form {
     width: 100%;
     margin-top: 20px;
@@ -66,19 +92,23 @@
       padding: 1.5rem 3rem;
       border: 1px solid #BCCC1C;
       float: left;
-      border-radius: 4px;
       background: 0 0;
       text-transform: uppercase;
       float: right;
       text-align: center;
       margin-right: 10px;
+
+      &:hover{
+          color: #2A2B2B;
+          background-color: #BCCC1C;
+      }
     }
   }
   
   .map-wrap {
-    background: rgba(8, 253, 216, 0.1);
+    // background: rgba(8, 253, 216, 0.1);
     float: right;
-    width: 53%;
+    width: 50%;
     height: 115%;
     margin-top: -3%;
   }
@@ -94,25 +124,27 @@
   
   .info-map {
     position: absolute;
-    background: #000;
+    background: #2A2B2B;
     top: 50px;
     right: 30%;
     z-index: 999999;
     width: 267px;
     padding: 20px;
-    color: #fff;
+    color: #BCCC1C;
     font-family: 'Helvetica';
-    font-size: 17px;
+    font-size: 1.5rem;
     font-weight: 300;
     opacity: 0;
+    border: 1px solid #FF7D7D;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
   
     span {
-      font-size: 16px;
+      font-size: 1.5rem;
+      color: #FF7D7D;
   
       span {
-        color: #ffd700;
+        color: #FF7D7D;
       }
     }
   }

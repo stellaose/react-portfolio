@@ -1,13 +1,15 @@
 import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom'
 import Animated from '../Components/Animated';
+import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useForm } from '@formspree/react';
 import Loader from 'react-loaders';
+import 'leaflet/dist/leaflet.css';
 import '../Stylesheets/Contact.scss';
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  
+
   const navigate = useNavigate()
 
   useEffect(() => {
@@ -26,10 +28,8 @@ const Contact = () => {
           <button onClick={() => navigate(-1)} className = 'btn'>
               goBack
           </button>
-        </div>
-        
+        </div> 
       )
-      ;
   }
 
   return (
@@ -81,6 +81,27 @@ const Contact = () => {
               </ul>
             </form>
           </div>
+        </div>
+
+        <div className = 'info-map'>
+            Stella Oseyomon
+            <br />
+            Nigeria
+            <br />
+            9, Abeokuta Street <br />
+            Akoka, Lagos
+            <br />
+            <br />
+            <span>stella.oseyomon@gmail.com</span>
+        </div>
+
+        <div className="map-wrap">
+          <MapContainer center={[6.53406, 3.39286]} zoom={30}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[6.53406, 3.39286]}>
+              <Popup>Stella lives here</Popup>
+            </Marker>
+          </MapContainer>
         </div>
       </div>
 

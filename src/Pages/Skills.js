@@ -1,8 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Loader from 'react-loaders';
 
 const Skills = () => {
   return (
-    <div>Skills</div>
+    <>
+      <div>
+
+      </div>
+
+      <Loader type = "line-scale" />
+    </>
   )
 }
 

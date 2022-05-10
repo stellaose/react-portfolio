@@ -50,7 +50,12 @@ const Contact = () => {
             <form onSubmit={handleSubmit}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input 
+                    placeholder="Name" 
+                    type="text" 
+                    name="name" 
+                    required 
+                  />
                 </li>
                 <li className="half">
                   <input
@@ -110,7 +115,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <Loader type='pacman' />
+      <Loader type='line-scale' />
     </>
   )
 }

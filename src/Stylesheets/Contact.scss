@@ -1,25 +1,27 @@
+@import './variables';
+
 .success{
     width: 40rem;
     height: 15rem;
     margin: 10% auto 0;
     padding: 2rem;
-    border: 1px solid #FF7D7D;
+    border: 1px solid $secondary-color;
   
     .sub{
       text-align: center;
       font-size: 1.8rem;
-      color: #FF7D7D;
+      color: $secondary-color;
     }
   
     .btn{
       background: none;
-      color: #BCCC1C;
-      border: 1px solid #BCCC1C;
+      color: $primary-color;
+      border: 1px solid $primary-color;
       padding: 1rem 2rem;
   
       &:hover{
-        color: #2A2B2B;
-        background-color: #BCCC1C;
+        color: $btn-color;
+        background-color: $primary-color;
       }
     }
   }
@@ -62,11 +64,11 @@
     input[type='email'] {
       width: 100%;
       border: 0;
-      background: #444749;
+      background: $background-color;
       height: 5rem;
       font-size: 1.7rem;
       font-weight: 600;
-      color: #ADB3B8;
+      color: $text-color;;
       padding: 0 20px;
       box-sizing: border-box;
     }
@@ -76,29 +78,29 @@
     input:-webkit-autofill:focus, 
     input:-webkit-autofill:active  {
       transition: background-color 5000s;
-      -webkit-text-fill-color: #ADB3B8 !important;
+      -webkit-text-fill-color: $text-color !important;
 }
   
     textarea {
       width: 100%;
       border: 0;
-      background: #444749;
+      background: $background-color;
       height: 50px;
       font-size: 1.7rem;
       font-weight: 600;
-      color: #ADB3B8;
+      color: $text-color;
       padding: 20px;
       box-sizing: border-box;
       min-height: 150px;
     }
   
     .flat-button {
-      color: #BCCC1C;
+      color: $primary-color;
       font-size: 1.5rem;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 1.5rem 3rem;
-      border: 1px solid #BCCC1C;
+      border: 1px solid $primary-color;
       float: left;
       background: 0 0;
       text-transform: uppercase;
@@ -107,8 +109,8 @@
       margin-right: 10px;
 
       &:hover{
-          color: #2A2B2B;
-          background-color: #BCCC1C;
+          color: $btn-color;
+          background-color: $primary-color;
       }
     }
   }
@@ -132,27 +134,27 @@
   
   .info-map {
     position: absolute;
-    background: #2A2B2B;
+    background: $btn-color;
     top: 50px;
     right: 30%;
     z-index: 999999;
     width: 267px;
     padding: 20px;
-    color: #BCCC1C;
-    font-family: 'Helvetica';
+    color: $primary-color;
+    font-family: $font1;
     font-size: 1.5rem;
     font-weight: 300;
     opacity: 0;
-    border: 1px solid #FF7D7D;
+    border: 1px solid $secondary-color;
     animation: fadeIn 1s 1.5s;
     animation-fill-mode: forwards;
   
     span {
       font-size: 1.5rem;
-      color: #FF7D7D;
+      color: $secondary-color;
   
       span {
-        color: #FF7D7D;
+        color: $secondary-color;
       }
     }
   }

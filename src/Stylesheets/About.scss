@@ -1,3 +1,5 @@
+@import './variables';
+
 .stage-cube-cont {
     width: 50%;
     height: 100%;
@@ -34,27 +36,27 @@
   
     .face1 {
       transform: translateZ(100px);
-      color: #5ED4F4;
+      color: $ReactJS;
     }
     .face2 {
       transform: rotateY(90deg) translateZ(100px);
-      color: #F06529;
+      color: $HTML5;
     }
     .face3 {
       transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-      color: #28A4D9;
+      color: $CSS3;
     }
     .face4 {
       transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-      color: #578F0D;
+      color: $NodeJS;
     }
     .face5 {
       transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-      color: #FF7D7D;
+      color: $SASS;
     }
     .face6 {
       transform: rotateX(-90deg) translateZ(100px);
-      color: #EFD81D;
+      color: $JavaScript;
     }
   }
   

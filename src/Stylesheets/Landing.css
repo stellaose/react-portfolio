@@ -24,7 +24,7 @@
 
 .container h1::before {
   content: '<h1>';
-  font-family: 'La Belle Aurore', cursive;
+  font-family: "La Belle Aurore", cursive;
   color: #BCCC1C;
   font-size: 2rem;
   position: absolute;
@@ -35,7 +35,7 @@
 
 .container h1::after {
   content: '<h1>';
-  font-family: 'La Belle Aurore', cursive;
+  font-family: "La Belle Aurore", cursive;
   color: #BCCC1C;
   font-size: 2rem;
   position: absolute;
@@ -86,6 +86,6 @@
 
 .container .flat:hover {
   background-color: #BCCC1C;
-  color: #2a2b2b;
+  color: #2A2B2B;
 }
 /*# sourceMappingURL=Landing.css.map */

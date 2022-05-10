@@ -1,3 +1,5 @@
+@import './variables';
+
 .container{
     width: 100%;
 
@@ -13,7 +15,7 @@
 
     h1{
         margin: 0;
-        color: #fff;
+        color: $color;
         font-size: 8rem;
         font-family: 'Coolvetica';
         font-weight: 400;
@@ -21,8 +23,8 @@
 
         &::before{
             content: '<h1>';
-            font-family: 'La Belle Aurore', cursive;
-            color: #BCCC1C;
+            font-family: $font;
+            color: $primary-color;
             font-size: 2rem;
             position: absolute;
             margin-top: -4rem;
@@ -32,8 +34,8 @@
 
         &::after{
             content: '<h1>';
-            font-family: 'La Belle Aurore', cursive;
-            color: #BCCC1C;
+            font-family: $font;
+            color: $primary-color;
             font-size: 2rem;
             position: absolute;
             margin-top: 1.4rem;
@@ -53,7 +55,7 @@
     }
 
     h2 {
-        color: #8d8d8d;
+        color: $heading-color;
         margin-top: 1.25rem;
         font-weight: 600;
         font-size: 1.5rem;
@@ -64,10 +66,10 @@
 
     .flat{
         padding: 1.5rem 2.5rem;
-        border: 1px solid #BCCC1C;
+        border: 1px solid $primary-color;
         background: none;
         margin-top: 1.8rem;
-        color: #BCCC1C;
+        color: $primary-color;
         text-decoration: none;
         letter-spacing: 4px;
         font-size: 1.5rem;
@@ -77,8 +79,8 @@
         white-space: nowrap;
 
         &:hover {
-            background-color: #BCCC1C;
-            color: #2a2b2b;
+            background-color: $primary-color;
+            color: $btn-color;
         }
     }
 }

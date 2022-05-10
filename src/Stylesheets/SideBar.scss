@@ -1,5 +1,7 @@
+@import './variables';
+
 .navbar-body{
-    background: #242424;
+    background: $sidebar-color;
     width: 9rem;
     height: 100%;
     position: absolute;
@@ -36,7 +38,7 @@
     
         a {
             font-size: 2.3rem;
-            color: #BCCC1C;
+            color: $primary-color;
             display: block;
             line-height: 51px;
             height: 51px;
@@ -48,7 +50,7 @@
             }
     
           &:hover {
-            color: #BCCC1C;
+            color: $primary-color;
     
             svg {
               opacity: 0;
@@ -105,7 +107,7 @@
         }
         a.active {
           svg {
-            color: #BCCC1C;
+            color: $primary-color;
           }
         }
       }
@@ -128,7 +130,7 @@
                 line-height: 3rem;
         
                 &:hover svg{
-                color: #BCCC1C;
+                color: $primary-color;
                 }
             }
         }

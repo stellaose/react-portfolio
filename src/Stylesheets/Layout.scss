@@ -1,3 +1,5 @@
+@import './variables';
+
 .page {
     width: 100%;
     height: 100%;
@@ -10,13 +12,13 @@
   }
   
   .tags {
-    color: #BCCC1C;
+    color: $primary-color;
     opacity: 0.6;
     position: absolute;
     bottom: 0;
     left: 10rem;
     font-size: 2rem;
-    font-family: 'La Belle Aurore', cursive;
+    font-family: $font;
   }
   
   .bottom-tag-html {
@@ -55,7 +57,7 @@
       h1 {
         font-size: 6.5rem;
         font-family: 'Coolvetica';
-        color: #BCCC1C;
+        color: $primary-color;
         font-weight: 400;
         margin-top: 0;
         position: relative;
@@ -64,8 +66,8 @@
   
         &::before {
           content: '<h1>';
-          font-family: 'La Belle Aurore', cursive;
-          color: #BCCC1C;
+          font-family: $font;
+          color: $primary-color;
           font-size: 1.3rem;
           position: absolute;
           margin-top: -0.7rem;
@@ -76,8 +78,8 @@
   
         &::after {
           content: '<h1/>';
-          font-family: 'La Belle Aurore', cursive;
-          color: #BCCC1C;
+          font-family: $font;
+          color: $primary-color;
           font-size: 1.5rem;
           line-height: 1.5rem;
           position: absolute;
@@ -90,7 +92,7 @@
   
       p {
         font-size: 1.7rem;
-        color: #fff;
+        color: $color;
         line-height: 2.5rem;
         font-family: sans-serif;
         font-weight: 300;
@@ -110,7 +112,7 @@
   
     .text-animate-hover {
       &:hover {
-        color: #fff;
+        color: $color;
       }
     }
   }
